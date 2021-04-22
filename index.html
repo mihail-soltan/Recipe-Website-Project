@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link href="src/styles.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-light bg-light justify-content-between">
+      <a class="navbar-brand">Tasty Recipes</a>
+      <form class="form-inline">
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search Recipes"
+          aria-label="Search"
+        />
+        <button
+          class="btn btn-outline-success my-2 my-sm-0"
+          type="button"
+          id="search"
+          onclick="myFunction()"
+        >
+          Search
+        </button>
+        <script>
+          function myFunction() {
+            alert("Sorry, it doesn't work");
+          }
+        </script>
+      </form>
+    </nav>
+    <!--
+		   <audio controls>
+				<source
+					src="DJ.mp3"
+					type="audio/ogg"
+				/>
+				<source
+					src="/DJ.mp3"
+					type="audio/mpeg"
+				/>
+				Your browser does not support the audio element.
+			</audio>
+			<script>
+				const button = document.querySelector("button");
+				const audio = document.querySelector("audio");
+	
+				body.addEventListener("click", audio.play);
+			</script> 
+		-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-8 offset-2 offset-sm-0 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img class="card-img-top" src="/Pizza.jpg" alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">Pizza</h5>
+              <p class="card-text">
+                Edison bulb venmo fixie, bicycle rights leggings cloud bread
+                cred chia plaid. Glossier cliche
+              </p>
+              <a
+                href="https://www.bonappetit.com/recipe/buffalo-chicken-pizza"
+                class="btn btn-primary"
+                target="_blank"
+                >Let's cook!</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 offset-2 offset-sm-0 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/arepas_1.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Arepas</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a
+                href="https://www.allrecipes.com/recipe/262048/colombian-arepas/"
+                class="btn btn-primary"
+                target="_blank"
+                >Let's cook!</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-8 offset-2 offset-sm-0 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/lasagne_1.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Lasagne</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a
+                href="https://www.allrecipes.com/recipe/23600/worlds-best-lasagna/"
+                class="btn btn-primary"
+                target="_blank"
+                >Let's cook!</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-8 offset-2 offset-sm-0 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/burger_1.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Burger</h5>
+              <p class="card-text">
+                Art party flexitarian neutra tacos mustache coloring book. Green
+                juice pop-up semiot
+              </p>
+              <a
+                href="https://www.myrecipes.com/recipe/classic-burger"
+                class="btn btn-primary"
+                target="_blank"
+                >Let's cook!</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-8 offset-2 offset-sm-0 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/lahmacun_1.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Lahmacun</h5>
+              <p class="card-text">
+                Vegan ethical fingerstache subway tile, swag af asymmetrical
+                small batch aesthetic pout.
+              </p>
+              <a
+                href="https://www.tasteatlas.com/lahmacun/recipe"
+                class="btn btn-primary"
+                target="_blank"
+                >Let's cook!</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-8 offset-2 offset-sm-0 col-sm-6 col-md-4 col-lg-3">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="/mamaliga.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Mamaliga</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a
+                href="https://www.thespruceeats.com/romanian-cornmeal-porridge-recipe-mamaliga-1137442"
+                class="btn btn-primary"
+                target="_blank"
+                >Let's cook!</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--
+    <div class="col-8 offset-2 offset-sm-0 col-sm-6 col-md-4 col-lg-3">
+      <div class="card">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="/lasagne.jpg" ="Card image cap" />
+          <div class="card-body">
+            <h5 class="card-title">Lasagne</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Let's cook!</a>
+          </div>
+        </div>
+      </div>-->
+    <!---->
+
+    <script src="src/index.js"></script>
+    <div class="media-button">
+      <p>
+        Click here to follow us on social media!
+      </p>
+
+      <a href="https://twitter.com/" target="_blank"
+        ><img src="/twitter.png" alt="twitter logo" width="50" height="50"
+      /></a>
+      <a href="https://reddit.com/" target="_blank"
+        ><img src="/reddit.png" alt="reddit logo" width="50" height="50"
+      /></a>
+      <a href="https://facebook.com/" target="_blank"
+        ><img src="/facebook.png" alt="facebook logo" width="50" height="50"
+      /></a>
+    </div>
+
+    <div id="app"></div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
