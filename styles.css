@@ -74,6 +74,7 @@ p {
 
 img {
   border: solid gray 1px;
+  border-radius: 5px;
 }
 
 .card-text {
